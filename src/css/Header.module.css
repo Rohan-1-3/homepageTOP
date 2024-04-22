@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    padding: 2rem;
+}
+
+.header p{
+    font-size: .9rem;
+}
+
+.header h1{
+    font-size: 2rem;
+}
+
+.profileInfo{
+    background-color: white;
+    color: black;
+    height: max-content;
+    margin: auto auto;
+    padding: 1rem;
+    font-size: .8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profileInfo a{
+    color: black;
+}
+
+.links{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .profileImage{
+        margin: auto auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .profileImage img{
+        width: 250px;
+    }
+}
